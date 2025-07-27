@@ -43,7 +43,6 @@ Make sure the following are installed:
 Ensure the database details in `sweetshop-backenddd/sweetshop/settings.py` match your system.
 
 **Go into the frontend folder**
-```bash
 cd sweetshop_frontend
 npm install
 npm start
