@@ -1,4 +1,4 @@
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/28cb8d81-3bc5-403d-87b7-19a85724703d" /># SweetShopManagement
+# SweetShopManagement
 
 Shahi Mithai is a sweet shop web application where users can browse different sweets, filter them by category, and place orders. The site also includes login/register features and keeps track of a user's past orders.
 
