@@ -1,0 +1,59 @@
+/* Login.css - responsive and improved */
+
+.auth-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.auth-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d35400;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background-color: #fa9c5e;
+}
+
+/* 🔁 Mobile support */
+@media (max-width: 500px) {
+  .auth-form {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  .auth-form h2 {
+    font-size: 20px;
+  }
+
+  .auth-form button {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
