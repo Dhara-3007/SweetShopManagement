@@ -1,16 +1,16 @@
-# SweetShopManagement
-
+# Shahi Mithai - Sweet Shop Management System
 Shahi Mithai is a sweet shop web application where users can browse different sweets, filter them by category, and place orders. The site also includes login/register features and keeps track of a user's past orders.
 
 **What website does**
-- Shows a list of sweets with images
+- Displays a list of sweets with images
 - Allows users to register and log in
-- Lets users filter sweets by type (e.g., Bengali, Gujarati)
-- Has a Buy Now popup modal for quick purchasing
-- Displays order history for each user
-- Has a clean and responsive design
-- Developed following Test-Driven Development (TDD)
+- Filters sweets by category (e.g., Bengali, Gujarati)
+- Includes a "Buy Now" popup modal for quick ordering
+- Displays individual user's order history
+- Clean, responsive UI for all screen sizes
+- Developed using Test-Driven Development (TDD)
 
+**Tech Stack**
 **Frontend**
 - React
 - CSS (Custom styling using `SweetList.css`)
@@ -43,6 +43,7 @@ Make sure the following are installed:
 Ensure the database details in `sweetshop-backenddd/sweetshop/settings.py` match your system.
 
 **Go into the frontend folder**
+```bash
 cd sweetshop_frontend
 npm install
 npm start
@@ -65,6 +66,7 @@ python manage.py runserver
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b4e96ec2-92ed-47d8-9d01-547f812060e7" />
 - OrderHistory
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/c0b0cc48-7c72-4380-8701-aa4cc3afa48e" />
+
 
 **My AI Usage**
 AI Tools Used: GitHub Copilot, Gemini, ChatGPT
